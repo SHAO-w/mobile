@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.map-search.data-v-0b31f540 {
+  text-align: right;
+  left: 20rpx;
+  right: 20rpx;
+  bottom: 50rpx;
+}
+.map-search-c.data-v-0b31f540 {
+  background-color: #fff;
+}
+.map-icon.data-v-0b31f540 {
+  display: inline-flex;
+  flex-direction: column;
+}
+.map-icon-item.data-v-0b31f540 {
+  display: inline-flex;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+

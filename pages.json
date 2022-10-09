@@ -1,0 +1,119 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "工具小屋"
+			}
+		},
+		{
+			"path": "pages/map/map",
+			"style": {
+				"navigationBarTitleText": "地图导航",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/view/index",
+			"style": {
+				"navigationBarTitleText": "内容"
+			}
+		},
+		{
+			"path": "pages/set/set",
+			"style": {
+				"navigationBarTitleText": "管理中心"
+			}
+		},
+		{
+			"path": "pages/set/swiper",
+			"style": {
+				"navigationBarTitleText": "轮播图管理"
+			}
+		},
+		{
+			"path": "pages/set/music/index",
+			"style": {
+				"navigationBarTitleText": "音乐"
+			}
+		},
+		{
+			"path": "pages/set/pyq",
+			"style": {
+				"navigationBarTitleText": "朋友圈",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 200
+			}
+		}
+        ,{
+            "path" : "pages/set/three/three",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "Three.js",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/set/three/map",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "Three.js 地图",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/set/three/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "初识Three",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"backgroundColor": "#fff",
+		"color": "black",
+		"selectedColor": "green",
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "./static/location.png",
+				"selectedIconPath": "./static/location.png"
+
+			},
+			{
+				"text": "导航",
+				"pagePath": "pages/map/map",
+				"iconPath": "./static/location.png",
+				"selectedIconPath": "./static/location.png"
+			},
+			{
+				"text": "内容",
+				"pagePath": "pages/view/index",
+				"iconPath": "./static/location.png",
+				"selectedIconPath": "./static/location.png"
+			}
+
+
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+		// "navigationStyle": "custom"
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}

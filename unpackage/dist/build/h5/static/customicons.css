@@ -1,0 +1,49 @@
+@font-face {
+	font-family: "customicons";
+	/* Project id 2878519 */
+	src: url('/static/customicons.ttf') format('truetype');
+}
+
+.customicons {
+	font-family: "customicons" !important;
+}
+
+.youxi:before {
+	content: "\e60e";
+}
+
+.wenjian:before {
+	content: "\e60f";
+}
+
+.zhuanfa:before {
+	content: "\e610";
+}
+
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+	z-index: 1;
+}
+
+.padding10 {
+	padding: 16rpx;
+}
+
+.margin10_t {
+	margin-top: 16rpx;
+}
+
+.bg_white{
+	background-color: #fff;
+}
+
+.container {
+	padding: 20px;
+	font-size: 14px;
+	line-height: 24px;
+	background-color: #fff;
+}

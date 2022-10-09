@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.data-v-1539c97e .upload .u-upload__wrap {
+  flex-direction: column !important;
+  flex-wrap: nowrap !important;
+}
+.data-v-1539c97e .upload .u-upload__wrap__preview {
+  margin: 0 0 14px 0;
+}
+

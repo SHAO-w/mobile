@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.album {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.album__avatar {
+  background-color: #eee;
+  display: flex;
+  padding: 5px;
+  border-radius: 3px;
+}
+.album__content {
+  margin-left: 10px;
+  flex: 1;
+}
+

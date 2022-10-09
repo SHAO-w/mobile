@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "朋友圈",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 200,
+  "usingComponents": {
+    "u--text": "/uni_modules/uview-ui/components/u--text/u--text",
+    "u-album": "/uni_modules/uview-ui/components/u-album/u-album",
+    "u-loading-icon": "/uni_modules/uview-ui/components/u-loading-icon/u-loading-icon"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/map/map",
+    "pages/view/index",
+    "pages/set/set",
+    "pages/set/swiper",
+    "pages/set/pyq"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "color": "black",
+    "selectedColor": "green",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "./static/location.png",
+        "selectedIconPath": "./static/location.png"
+      },
+      {
+        "text": "导航",
+        "pagePath": "pages/map/map",
+        "iconPath": "./static/location.png",
+        "selectedIconPath": "./static/location.png"
+      },
+      {
+        "text": "内容",
+        "pagePath": "pages/view/index",
+        "iconPath": "./static/location.png",
+        "selectedIconPath": "./static/location.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取位置信息"
+    }
+  },
+  "usingComponents": {}
+}

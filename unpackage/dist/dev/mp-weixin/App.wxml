@@ -1,0 +1,1 @@
+<view><u-navbar vue-id="c31923fa-1" title="个人中心" autoBack="{{true}}" bind:__l="__l"></u-navbar></view>
